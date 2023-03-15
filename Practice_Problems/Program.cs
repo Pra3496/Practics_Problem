@@ -14,7 +14,7 @@
                 Console.WriteLine("1 : Check Whether a Given Number is Even or Odd");
                 Console.WriteLine("2 : Print Odd Numbers in a Given Range");
                 Console.WriteLine("3 : Check Whether a Number is Positive or Not");
-
+                Console.WriteLine("4 : Find the Largest of Two Numberst");
                 Console.WriteLine("0 : Exit");
                 Console.Write("ENTER YOUR CHOICE : ");
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -39,6 +39,11 @@
                         CheckPositive.chkNumber(2);
                         CheckPositive.chkNumber(-22);
                         CheckPositive.chkNumber(0);
+                        Console.Write("\n*********************\nEnter Any Key...");
+                        Console.ReadKey();
+                        break;
+                    case 4:
+                        LargestOfTwo.LargestNumber(25,21);
                         Console.Write("\n*********************\nEnter Any Key...");
                         Console.ReadKey();
                         break;
