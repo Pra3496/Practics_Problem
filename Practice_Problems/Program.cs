@@ -16,6 +16,8 @@
                 Console.WriteLine("3 : Check Whether a Number is Positive or Not");
                 Console.WriteLine("4 : Find the Largest of Two Numberst");
                 Console.WriteLine("5 : Swap Two Numbers");
+                Console.WriteLine("6 : Divisible by 2");
+                
                 Console.WriteLine("0 : Exit");
                 Console.Write("ENTER YOUR CHOICE : ");
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -53,8 +55,13 @@
                         Console.Write("\n*********************\nEnter Any Key...");
                         Console.ReadKey();
                         break;
-                   
-
+                    case 6:
+                        DivisibleByTwo.Divisible(256);
+                        DivisibleByTwo.Divisible(333);
+                        DivisibleByTwo.Divisible(3);
+                        Console.Write("\n*********************\nEnter Any Key...");
+                        Console.ReadKey();
+                        break;
                     case 0:
                         flag = false;
                         break;
