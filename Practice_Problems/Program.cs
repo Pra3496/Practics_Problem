@@ -13,6 +13,7 @@
                 Console.WriteLine("Please enter an option");
                 Console.WriteLine("1 : Check Whether a Given Number is Even or Odd");
                 Console.WriteLine("2 : Print Odd Numbers in a Given Range");
+                Console.WriteLine("3 : Check Whether a Number is Positive or Not");
 
                 Console.WriteLine("0 : Exit");
                 Console.Write("ENTER YOUR CHOICE : ");
@@ -31,6 +32,13 @@
                         oddRange.From_Range = 1;
                         oddRange.To_Range = 10;
                         oddRange.Display();
+                        Console.Write("\n*********************\nEnter Any Key...");
+                        Console.ReadKey();
+                        break;
+                    case 3:
+                        CheckPositive.chkNumber(2);
+                        CheckPositive.chkNumber(-22);
+                        CheckPositive.chkNumber(0);
                         Console.Write("\n*********************\nEnter Any Key...");
                         Console.ReadKey();
                         break;
