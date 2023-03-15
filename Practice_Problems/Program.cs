@@ -17,7 +17,7 @@
                 Console.WriteLine("4 : Find the Largest of Two Numberst");
                 Console.WriteLine("5 : Swap Two Numbers");
                 Console.WriteLine("6 : Divisible by 2");
-                
+                Console.WriteLine("7 : Sum of Multiple of 3 and 5 in a given range");
                 Console.WriteLine("0 : Exit");
                 Console.Write("ENTER YOUR CHOICE : ");
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -60,6 +60,11 @@
                         DivisibleByTwo.Divisible(333);
                         DivisibleByTwo.Divisible(3);
                         Console.Write("\n*********************\nEnter Any Key...");
+                        Console.ReadKey();
+                        break;
+                    case 7:
+                        Multiple.MultipleOf3and5(100);
+                        Console.Write("\n\n*********************\nEnter Any Key...");
                         Console.ReadKey();
                         break;
                     case 0:
