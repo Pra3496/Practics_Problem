@@ -12,6 +12,8 @@
                 Console.WriteLine("\nWelcome to File Handling Program\n");
                 Console.WriteLine("Please enter an option");
                 Console.WriteLine("1 : Check Whether a Given Number is Even or Odd");
+                Console.WriteLine("2 : Print Odd Numbers in a Given Range");
+
                 Console.WriteLine("0 : Exit");
                 Console.Write("ENTER YOUR CHOICE : ");
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -24,7 +26,15 @@
                         Console.Write("\n*********************\nEnter Any Key...");
                         Console.ReadKey();
                         break;
-                    
+                    case 2:
+                        OddInRange oddRange= new OddInRange();
+                        oddRange.From_Range = 1;
+                        oddRange.To_Range = 10;
+                        oddRange.Display();
+                        Console.Write("\n*********************\nEnter Any Key...");
+                        Console.ReadKey();
+                        break;
+
                     case 0:
                         flag = false;
                         break;
