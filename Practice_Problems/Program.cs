@@ -15,6 +15,7 @@
                 Console.WriteLine("2 : Print Odd Numbers in a Given Range");
                 Console.WriteLine("3 : Check Whether a Number is Positive or Not");
                 Console.WriteLine("4 : Find the Largest of Two Numberst");
+                Console.WriteLine("5 : Swap Two Numbers");
                 Console.WriteLine("0 : Exit");
                 Console.Write("ENTER YOUR CHOICE : ");
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -47,6 +48,12 @@
                         Console.Write("\n*********************\nEnter Any Key...");
                         Console.ReadKey();
                         break;
+                    case 5:
+                        SwapNumber.Swaping(26, 65);
+                        Console.Write("\n*********************\nEnter Any Key...");
+                        Console.ReadKey();
+                        break;
+                   
 
                     case 0:
                         flag = false;
