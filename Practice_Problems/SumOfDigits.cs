@@ -18,7 +18,7 @@ namespace Practice_Problems
                 iSum += iRem;
                 iNum = iNum / 10;
             }
-            Console.WriteLine("\n----------- RESULT ----------");
+            Console.WriteLine("\n----------- RESULT ----------\n");
             Console.WriteLine("Given Number : {0}\nSum of Digits is : {1}",iNo,iSum);
             Console.WriteLine("\n----------- END ----------");
         }

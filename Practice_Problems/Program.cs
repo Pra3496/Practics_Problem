@@ -11,16 +11,17 @@
                 Console.Clear();
                 Console.WriteLine("\nWelcome to File Handling Program\n");
                 Console.WriteLine("Please enter an option");
-                Console.WriteLine("1 : Check Whether a Given Number is Even or Odd");
-                Console.WriteLine("2 : Print Odd Numbers in a Given Range");
-                Console.WriteLine("3 : Check Whether a Number is Positive or Not");
-                Console.WriteLine("4 : Find the Largest of Two Numberst");
-                Console.WriteLine("5 : Swap Two Numbers");
-                Console.WriteLine("6 : Divisible by 2");
-                Console.WriteLine("7 : Sum of Multiple of 3 and 5 in a given range");
-                Console.WriteLine("8 : Find Sum of Given Digits");
-                Console.WriteLine("9 : Reverse Number");
-                Console.WriteLine("0 : Exit");
+                Console.WriteLine("1  : Check Whether a Given Number is Even or Odd");
+                Console.WriteLine("2  : Print Odd Numbers in a Given Range");
+                Console.WriteLine("3  : Check Whether a Number is Positive or Not");
+                Console.WriteLine("4  : Find the Largest of Two Numberst");
+                Console.WriteLine("5  : Swap Two Numbers");
+                Console.WriteLine("6  : Divisible by 2");
+                Console.WriteLine("7  : Sum of Multiple of 3 and 5 in a given range");
+                Console.WriteLine("8  : Find Sum of Given Digits");
+                Console.WriteLine("9  : Reverse Number");
+                Console.WriteLine("10 : Palindrome Number");
+                Console.WriteLine("0  : Exit");
                 Console.Write("ENTER YOUR CHOICE : ");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
@@ -76,6 +77,12 @@
                         break;
                     case 9:
                         ReverseNumber.reverseNumber(321);
+                        Console.Write("\n\n*********************\nEnter Any Key...");
+                        Console.ReadKey();
+                        break;
+                    case 10:
+                        iNumberPalindrom.numPalindrom(1221);
+                        iNumberPalindrom.numPalindrom(1223);
                         Console.Write("\n\n*********************\nEnter Any Key...");
                         Console.ReadKey();
                         break;
