@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Practice_Problems
 {
-    internal class SumOfDigits
+    internal class ReverseNumber
     {
-        public static void SumOfDigitsOfNumber(int iNo)
+        public static void reverseNumber(int iNo)
         {
             int iNum = iNo;
-            int iSum = 0;
+            int iRevs = 0;
             while (iNum != 0)
             {
                 int iRem = iNum % 10;
-                iSum += iRem;
+                iRevs = iRevs * 10 + iRem;
                 iNum = iNum / 10;
             }
-            Console.WriteLine("\n----------- RESULT ----------");
-            Console.WriteLine("Given Number : {0}\nSum of Digits is : {1}",iNo,iSum);
+            Console.WriteLine("----------- RESULT ----------");
+            Console.WriteLine("Given Number : {0}\nReverse Number is : {1}", iNo, iRevs);
             Console.WriteLine("\n----------- END ----------");
         }
     }
