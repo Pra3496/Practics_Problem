@@ -18,7 +18,7 @@ namespace Practice_Problems
                 iRevs = iRevs * 10 + iRem;
                 iNum = iNum / 10;
             }
-            Console.WriteLine("----------- RESULT ----------");
+            Console.WriteLine("----------- RESULT ----------\n");
             Console.WriteLine("Given Number : {0}\nReverse Number is : {1}", iNo, iRevs);
             Console.WriteLine("\n----------- END ----------");
         }

@@ -21,6 +21,7 @@
                 Console.WriteLine("8  : Find Sum of Given Digits");
                 Console.WriteLine("9  : Reverse Number");
                 Console.WriteLine("10 : Palindrome Number");
+                Console.WriteLine("11 : Arithmatics Operations");
                 Console.WriteLine("0  : Exit");
                 Console.Write("ENTER YOUR CHOICE : ");
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -83,6 +84,11 @@
                     case 10:
                         iNumberPalindrom.numPalindrom(1221);
                         iNumberPalindrom.numPalindrom(1223);
+                        Console.Write("\n\n*********************\nEnter Any Key...");
+                        Console.ReadKey();
+                        break;
+                    case 11:
+                        Arithmaics.ArithmaticsOps();
                         Console.Write("\n\n*********************\nEnter Any Key...");
                         Console.ReadKey();
                         break;
